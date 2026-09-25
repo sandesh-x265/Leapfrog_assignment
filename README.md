@@ -23,7 +23,13 @@ Use a Python environment with Jupyter Notebook, JupyterLab, or VS Code's Jupyter
    python -m pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the repository root with your credentials:
+3. Copy [`.env.example`](.env.example) to `.env` in the repository root (skip copying if you already have a `.env` file):
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+
+   Open `.env` and replace the placeholders with your credentials:
 
    ```dotenv
    GEMINI_API_KEY=your_gemini_api_key
