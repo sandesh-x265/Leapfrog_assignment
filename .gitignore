@@ -1,0 +1,33 @@
+# API credentials and local environment settings
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Jupyter temporary files (keep assignment notebooks tracked)
+.ipynb_checkpoints/
+.jupyter/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Runtime logs and Gradio temporary files
+*.log
+gradio_cached_examples/
+.gradio/

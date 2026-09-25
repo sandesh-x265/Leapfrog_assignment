@@ -1,0 +1,16 @@
+# Shared dependencies for all three assignments.
+# Version pins match Assignment 3's installation cell.
+google-genai
+gradio==6.28.0
+strands-agents==1.57.0
+strands-agents-tools
+openai
+pyowm==3.5.0
+tavily-python==0.8.4
+pydantic==2.13.5
+python-dotenv==1.2.3
+requests
+
+# Notebook environment
+jupyterlab
+ipykernel
