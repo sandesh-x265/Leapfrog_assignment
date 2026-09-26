@@ -2,7 +2,7 @@
 
 Three Python notebook assignments  exploring tool calling, weather retrieval, and AI-assisted travel planning.
 
-**Live deployment:** [Try Sojourn - A day well spent]([https://sojourn-beta.vercel.app/), a web app built from Assignment 3's AI travel planner.
+**Live deployment:** [Try Sojourn - A day well spent]([https://sojourn-beta.vercel.app/]), a web app built from Assignment 3's AI travel planner.
 
 ## Assignments
 
